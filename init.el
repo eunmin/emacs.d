@@ -10,6 +10,14 @@
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 
+;; ido
+(setq ido-everywhere t)
+(setq ido-decorations (quote ("\n-> " "" "\n   " "\n   ..." "[" "]" " [No match]" " [Matched]" " [Not readable]" " [Too big]" " [Confirm]")))
+(defun ido-define-keys ()
+  (define-key ido-completion-map (kbd "C-n") 'ido-next-match)
+  (define-key ido-completion-map (kbd "C-p") 'ido-prev-match))
+(add-hook 'ido-setup-hook 'ido-define-keys)
+
 ;; clojure-mode
 (add-hook 'clojure-mode-hook #'enable-paredit-mode)
 
@@ -29,5 +37,22 @@
 ;; idle-highlight-mode
 (idle-highlight-mode 1)
 
+;; show line number
 (global-linum-mode 1)
 (setq linum-format "%2d ")
+
+;; auto reload file
+(global-auto-revert-mode 1)
+
+;; scrolling
+(setq scroll-step 1 scroll-conservatively 10000)
+(global-set-key [up] (lambda () (interactive) (scroll-down 1)))
+(global-set-key [down] (lambda () (interactive) (scroll-up 1)))
+(global-set-key [left] (lambda () (interactive) (scroll-right tab-width t)))
+(global-set-key [right] (lambda () (interactive) (scroll-left tab-width t)))
+
+;; don't display 'ls does not support --dired' error message
+(setq dired-use-ls-dired nil)
+
+;; clojure
+(load-file "~/.emacs.d/clojure.el")

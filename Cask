@@ -7,4 +7,8 @@
 (depends-on "projectile")
 (depends-on "rainbow-delimiters")
 (depends-on "idle-highlight-mode")
+(depends-on "ido-ubiquitous")
 (depends-on "flx-ido")
+(depends-on "cider")
+(depends-on "company")
+(depends-on "ag")
