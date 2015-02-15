@@ -8,4 +8,3 @@
 (depends-on "rainbow-delimiters")
 (depends-on "idle-highlight-mode")
 (depends-on "flx-ido")
-(depends-on "zenburn-theme")

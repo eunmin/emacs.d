@@ -22,10 +22,12 @@
 ;; flx-ido (단축키로 ido 검색이 가능 pj 해도 project가 나옴)
 (flx-ido-mode 1)
 
-;; zenburn theme
+;; theme
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (load-theme 'zenburn t)
 
 ;; idle-highlight-mode
 (idle-highlight-mode 1)
 
-;(setq linum-format "%4d \u2502 ")
+(global-linum-mode 1)
+(setq linum-format "%2d ")
