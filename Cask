@@ -12,3 +12,4 @@
 (depends-on "cider")
 (depends-on "company")
 (depends-on "ag")
+(depends-on "clj-refactor")
