@@ -39,7 +39,7 @@
 
 ;; show line number
 (global-linum-mode 1)
-(setq linum-format "%2d ")
+(setq linum-format "%3d ")
 
 ;; auto reload file
 (global-auto-revert-mode 1)
@@ -60,5 +60,3 @@
 
 ;; clojure
 (load-file "~/.emacs.d/clojure.el")
-
-
