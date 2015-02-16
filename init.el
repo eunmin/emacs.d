@@ -54,5 +54,11 @@
 ;; don't display 'ls does not support --dired' error message
 (setq dired-use-ls-dired nil)
 
+;; auto-complete
+(global-auto-complete-mode 1)
+(define-key ac-mode-map (kbd "M-SPC") 'auto-complete)
+
 ;; clojure
 (load-file "~/.emacs.d/clojure.el")
+
+

@@ -10,6 +10,6 @@
 (depends-on "ido-ubiquitous")
 (depends-on "flx-ido")
 (depends-on "cider")
-(depends-on "company")
 (depends-on "ag")
 (depends-on "clj-refactor")
+(depends-on "ac-cider")
