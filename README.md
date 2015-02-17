@@ -54,5 +54,12 @@ cask install
 단축키               | 설명
 ---------------------|------------------------------------------------------------
 <kbd>C-c p f</kbd>   | 프로젝트에서 파일을 연다.
+<kbd>C-c p s s</kbd> | 프로젝트에서 Ag 전체 검색을 한다.
 <kbd>M-[</kbd>       | 탭 왼쪽으로 이동
 <kbd>M-]</kbd>       | 탭 오른쪽으로 이동
+<kbd>C-왼쪽</kbd>    | Paredit에서 괄호 왼쪽으로 이동
+<kbd>C-오른쪽</kbd>  | Paredit에서 괄호 오른쪽으로 이동
+<kbd>M-s</kbd>       | Paredit에서 괄호 벗겨내기
+<kbd>C-c M-j</kbd>   | Cider repl 실행하기, 클로저 파일이 열린 상태에서 실행
+<kbd>C-c C-k</kbd>   | Cider repl 현재 클로저 파일을 Eval
+<kbd>C-c o</kbd>     | 클로저에서 빠져있는 네임스페이스를 찾아 require 해준다.
