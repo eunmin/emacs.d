@@ -24,6 +24,12 @@
 
 ## 사용법
 ### Cask 설치와 패키지 설치
+프로젝트를 받고 ~/.emacs.d로 이름을 변경한다.
+```
+git clone https://github.com/eunmin/emacs.d.git
+mv ~/.emacs.d ~/.emacs.d.org
+mv ./emacs.d ~/.emacs.d
+``
 이맥스 패키지 관리자 툴인 Cask를 설치한다.
 ```
 brew install cask
