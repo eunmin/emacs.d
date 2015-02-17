@@ -11,3 +11,4 @@
 (depends-on "cider")
 (depends-on "ag")
 (depends-on "ac-cider")
+(depends-on "tabbar")
