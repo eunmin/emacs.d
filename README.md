@@ -62,4 +62,5 @@ cask install
 <kbd>M-s</kbd>       | Paredit에서 괄호 벗겨내기
 <kbd>C-c M-j</kbd>   | Cider repl 실행하기, 클로저 파일이 열린 상태에서 실행
 <kbd>C-c C-k</kbd>   | Cider repl 현재 클로저 파일을 Eval
+<kbd>M-스페이스</kbd>| 클로저 자동완성 (Cider가 켜있어야 한다.)
 <kbd>C-c o</kbd>     | 클로저에서 빠져있는 네임스페이스를 찾아 require 해준다.
