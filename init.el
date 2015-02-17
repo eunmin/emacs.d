@@ -60,3 +60,6 @@
 
 ;; clojure
 (load-file "~/.emacs.d/clojure.el")
+
+;; speedbar
+(speedbar 1)

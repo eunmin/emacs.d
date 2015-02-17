@@ -10,3 +10,10 @@
   '(progn
      (add-to-list 'ac-modes 'cider-mode)
      (add-to-list 'ac-modes 'cider-repl-mode)))
+
+;; slamhound
+;; add code to ~/.lein/profiles.clj
+;; :dependencies [[slamhound "1.5.5"]]
+;; :aliases {"slamhound" ["run" "-m" "slam.hound"]}
+(load-file "~/.emacs.d/slamhound.el")
+(global-set-key (kbd "C-c o") 'slamhound)
