@@ -29,7 +29,7 @@
 git clone https://github.com/eunmin/emacs.d.git
 mv ~/.emacs.d ~/.emacs.d.org
 mv ./emacs.d ~/.emacs.d
-``
+```
 이맥스 패키지 관리자 툴인 Cask를 설치한다.
 ```
 brew install cask
