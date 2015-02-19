@@ -61,6 +61,9 @@
 ;; clojure
 (load-file "~/.emacs.d/clojure.el")
 
+;; java
+(load-file "~/.emacs.d/java.el")
+
 ;; tabbar
 (load-file "~/.emacs.d/tabbar.el")
 
