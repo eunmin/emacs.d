@@ -16,4 +16,4 @@
 ;; :dependencies [[slamhound "1.5.5"]]
 ;; :aliases {"slamhound" ["run" "-m" "slam.hound"]}
 (load-file "~/.emacs.d/slamhound.el")
-(global-set-key (kbd "C-c o") 'slamhound)
+(global-set-key (kbd "C-c O") 'slamhound)

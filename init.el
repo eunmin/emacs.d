@@ -63,3 +63,6 @@
 
 ;; tabbar
 (load-file "~/.emacs.d/tabbar.el")
+
+;; imenu-anywhere		 
+(global-set-key (kbd "C-c o") 'imenu-anywhere)

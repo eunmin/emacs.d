@@ -12,3 +12,4 @@
 (depends-on "ag")
 (depends-on "ac-cider")
 (depends-on "tabbar")
+(depends-on "imenu-anywhere")
