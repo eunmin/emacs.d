@@ -13,6 +13,7 @@
 - ag : Projectile에서 빠른 검색을 지원하는 ag를 사용할수 있다.
 - ac-cider : Cider repl과 연동해서 클로저 함수들에 대한 자동완성 및 문서를 제공한다.
 - tabbar : 탭바를 지원한다.
+- imenu-anywhere : 함수 정의 바로가기 기능을 제공하는 imenu를 ido 스타일로 목록을 보여준다.
 
 ## 기타 파일들
 - Cask : 패키지 관리를 위한 파일
@@ -57,10 +58,11 @@ cask install
 <kbd>C-c p s s</kbd> | 프로젝트에서 Ag 전체 검색을 한다.
 <kbd>M-[</kbd>       | 탭 왼쪽으로 이동
 <kbd>M-]</kbd>       | 탭 오른쪽으로 이동
+<kbd>C-c o</kbd>     | 함수 정의 바로 가기
 <kbd>C-왼쪽</kbd>    | Paredit에서 괄호 왼쪽으로 이동
 <kbd>C-오른쪽</kbd>  | Paredit에서 괄호 오른쪽으로 이동
 <kbd>M-s</kbd>       | Paredit에서 괄호 벗겨내기
 <kbd>C-c M-j</kbd>   | Cider repl 실행하기, 클로저 파일이 열린 상태에서 실행
 <kbd>C-c C-k</kbd>   | Cider repl 현재 클로저 파일을 Eval
 <kbd>M-스페이스</kbd>| 클로저 자동완성 (Cider가 켜있어야 한다.)
-<kbd>C-c o</kbd>     | 클로저에서 빠져있는 네임스페이스를 찾아 require 해준다.
+<kbd>C-c O</kbd>     | 클로저에서 빠져있는 네임스페이스를 찾아 require 해준다.
