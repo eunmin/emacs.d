@@ -3,3 +3,5 @@ projectile*
 smex-items
 *~
 *.dat
+eshell
+\#*
