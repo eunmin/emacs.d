@@ -1,3 +1,6 @@
+;; clojure-mode
+(add-hook 'clojure-mode-hook #'enable-paredit-mode)
+
 ;; cider
 (setq cider-auto-select-error-buffer nil)
 (setq cider-prompt-save-file-on-load nil)

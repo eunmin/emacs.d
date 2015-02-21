@@ -2,6 +2,9 @@
 (require 'cask "/usr/local/Cellar/cask/0.7.2/cask.el")
 (cask-initialize)
 
+;; tabbar
+(load-file "~/.emacs.d/tabbar.el")
+
 ;; hide menu bar
 (menu-bar-mode -1)
 
@@ -18,8 +21,8 @@
   (define-key ido-completion-map (kbd "C-p") 'ido-prev-match))
 (add-hook 'ido-setup-hook 'ido-define-keys)
 
-;; clojure-mode
-(add-hook 'clojure-mode-hook #'enable-paredit-mode)
+;; enable paredit-mode for lisp
+(add-hook 'emacs-lisp-mode-hook #'enable-paredit-mode)
 
 ;; projectile
 (projectile-global-mode)
@@ -63,9 +66,6 @@
 
 ;; java
 (load-file "~/.emacs.d/java.el")
-
-;; tabbar
-(load-file "~/.emacs.d/tabbar.el")
 
 ;; imenu-anywhere		 
 (global-set-key (kbd "C-c o") 'imenu-anywhere)
