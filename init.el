@@ -27,8 +27,13 @@
 ;; projectile
 (projectile-global-mode)
 
-;; rainbow-delimiters
-(add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
+;; highlight-parentheses-mode color
+(custom-set-variables
+ '(hl-paren-colors (quote ("color-196" "color-220" "color-201" "color-46"))))
+
+;; rainbow-delimiters for lisp
+(add-hook 'emacs-lisp-mode-hook #'rainbow-delimiters-mode)
+(add-hook 'emacs-lisp-mode-hook #'highlight-parentheses-mode)
 
 ;; flx-ido (단축키로 ido 검색이 가능 pj 해도 project가 나옴)
 (flx-ido-mode 1)

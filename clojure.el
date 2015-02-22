@@ -20,3 +20,7 @@
 ;; :aliases {"slamhound" ["run" "-m" "slam.hound"]}
 (load-file "~/.emacs.d/slamhound.el")
 (global-set-key (kbd "C-c O") 'slamhound)
+
+;; rainbow-delimiters
+(add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
+(add-hook 'clojure-mode-hook #'highlight-parentheses-mode)
