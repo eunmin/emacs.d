@@ -28,8 +28,8 @@
 			 (length (tabbar-view
 				  (tabbar-current-tabset)))))))))
 
-(global-set-key (kbd "M-[") 'tabbar-backward-tab)
-(global-set-key (kbd "M-]") 'tabbar-forward-tab)
+(global-set-key (kbd "C-c [") 'tabbar-backward-tab)
+(global-set-key (kbd "C-c ]") 'tabbar-forward-tab)
 
 ;; switch tabbar
 (defun switch-tabbar (num)

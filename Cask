@@ -13,3 +13,4 @@
 (depends-on "ac-cider")
 (depends-on "tabbar")
 (depends-on "imenu-anywhere")
+(depends-on "command-log-mode")

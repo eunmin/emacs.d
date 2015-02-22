@@ -3,7 +3,7 @@
 (cask-initialize)
 
 ;; tabbar
-;; (load-file "~/.emacs.d/tabbar.el")
+(load-file "~/.emacs.d/tabbar.el")
 
 ;; hide menu bar
 (menu-bar-mode -1)
