@@ -8,6 +8,7 @@
 - projectile : 프로젝트에 파일 찾아 열기/검색/테스트 실행등을 지원한다. 
 - rainbow-delimiters : Clojure/Lisp에서 괄호의 단계별로 다른 색으로 표시해서 가독성을 높여준다.
 - idle-highlight-mode : 현재 커서가 있는 단어와 같은 단어들이 하이라이트 된다.
+- highlight-parentheses : Clojure/Lisp에서 괄호 짝을 하이라이팅 되게 해준다.
 - flx-ido : ido 모드(Projectile에서 파일찾기등)에서 약어 검색을 지원한다. core.clj를 cre등으로 검색해도 나옴
 - cider : Clojure 개발시 repl을 지원한다. 함수 선언으로 이동/자동 완성등의 플러그인도 repl이 실행되야 가능하다.
 - ag : Projectile에서 빠른 검색을 지원하는 ag를 사용할수 있다.
