@@ -16,6 +16,7 @@
 - tabbar : 탭바를 지원한다.
 - imenu-anywhere : 함수 정의 바로가기 기능을 제공하는 imenu를 ido 스타일로 목록을 보여준다.
 - command-log-mode : 입력키가 뭔지 옆에 보여준다.
+- pbcopy : OS X 클립보드와 연동해준다.
 
 ## 기타 파일들
 - Cask : 패키지 관리를 위한 파일
