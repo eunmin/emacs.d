@@ -15,3 +15,4 @@
 (depends-on "imenu-anywhere")
 (depends-on "command-log-mode")
 (depends-on "highlight-parentheses")
+(depends-on "pbcopy")

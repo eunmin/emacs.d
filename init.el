@@ -74,3 +74,9 @@
 
 ;; imenu-anywhere		 
 (global-set-key (kbd "C-c o") 'imenu-anywhere)
+
+;; don't make backup file
+(setq make-backup-files nil)
+
+;; pbcopy for osx
+(turn-on-pbcopy)
