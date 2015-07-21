@@ -85,8 +85,10 @@
 ;; android
 (load-file "~/.emacs.d/android.el")
 
+;; don't make backup file
 (setq make-backup-files nil)
 
+;; pbcopy for osx
 (turn-on-pbcopy)
 
 (set-display-table-slot standard-display-table 'vertical-border (make-glyph-code ?│))

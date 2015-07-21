@@ -24,3 +24,4 @@
 (depends-on "lispy")
 (depends-on "json-mode")
 (depends-on "clj-refactor" "1.1.0")
+
