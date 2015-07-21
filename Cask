@@ -1,5 +1,6 @@
 (source gnu)
 (source melpa)
+(source marmalade)
 
 (depends-on "smex")
 (depends-on "paredit")
@@ -15,3 +16,11 @@
 (depends-on "imenu-anywhere")
 (depends-on "command-log-mode")
 (depends-on "highlight-parentheses")
+(depends-on "swift-mode")
+(depends-on "android-mode")
+(depends-on "flycheck-clojure")
+(depends-on "flycheck-pos-tip")
+(depends-on "pbcopy")
+(depends-on "lispy")
+(depends-on "json-mode")
+(depends-on "clj-refactor" "1.1.0")

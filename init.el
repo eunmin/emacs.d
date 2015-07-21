@@ -20,6 +20,7 @@
   (define-key ido-completion-map (kbd "C-n") 'ido-next-match)
   (define-key ido-completion-map (kbd "C-p") 'ido-prev-match))
 (add-hook 'ido-setup-hook 'ido-define-keys)
+(setq ido-use-virtual-buffers t)
 
 ;; enable paredit-mode for lisp
 (add-hook 'emacs-lisp-mode-hook #'enable-paredit-mode)
@@ -29,6 +30,12 @@
 
 ;; highlight-parentheses-mode color
 (custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(android-mode-builder (quote gradle))
+ '(android-mode-sdk-dir "~/Library/Android/sdk")
  '(hl-paren-colors (quote ("color-196" "color-220" "color-201" "color-46"))))
 
 ;; rainbow-delimiters for lisp
@@ -74,3 +81,20 @@
 
 ;; imenu-anywhere		 
 (global-set-key (kbd "C-c o") 'imenu-anywhere)
+
+;; android
+(load-file "~/.emacs.d/android.el")
+
+(setq make-backup-files nil)
+
+(turn-on-pbcopy)
+
+(set-display-table-slot standard-display-table 'vertical-border (make-glyph-code ?│))
+
+(custom-set-faces
+ '(vertical-border ((t (:foreground "brightblack")))))
+
+(recentf-mode t)
+
+;; javascript indent
+(setq js-indent-level 2)
