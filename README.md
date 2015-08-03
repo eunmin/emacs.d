@@ -50,7 +50,7 @@ cask install
 ### Cider와 Slamhound를 위한 Leiningen 설정
 `~/.lein/profiles.clj`에 다음과 같이 Cider 플러그인과 slamhound 관련 설정을 추가한다.
 ```
-{:user {:plugins [[cider/cider-nrepl "0.9.0-SNAPSHOT"]
+{:user {:plugins [[cider/cider-nrepl "0.9.0-SNAPSHOT"]]
         :dependencies [[slamhound "1.5.5"]]
         :aliases {"slamhound" ["run" "-m" "slam.hound"]}}}
 ```
